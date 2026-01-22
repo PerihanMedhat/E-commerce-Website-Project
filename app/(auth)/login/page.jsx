@@ -1,5 +1,6 @@
 import React from "react";
 import LoginForm from "./LoginForm";
+import Link from "next/link";
 
 function Login() {
   return (
@@ -10,12 +11,12 @@ function Login() {
       <LoginForm />
       <p className="mt-4 text-sm text-center text-gray-500">
         Don't have an account?
-        <a
+        <Link
           href="/register"
           className="text-blue-600 mx-2 hover:underline cursor-pointer"
         >
           Sign up
-        </a>
+        </Link>
       </p>
     </div>
   );

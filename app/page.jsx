@@ -28,11 +28,11 @@ export default async function Home() {
 
   return (
     <div className="min-h-screen bg-gray-50 pt-10">
-      <Link href="/register?source=modal">
+      {/* <Link href="/register">
         <div className="fixed animate-bounce top-28 right-0 z-20 rounded-bl-lg text-xl rounded-tl-lg py-3 px-6 bg-green-500 text-white shadow-lg font-bold hover:scale-105 hover:duration-150 transition-all">
           Sign up
         </div>
-      </Link>
+      </Link> */}
       <div className="container mx-auto  lg:px-4 grid md:grid-cols-4 gap-4 ">
         <aside className="bg-white shadow-md rounded-xl  lg:p-6 h-[35rem] md:h-[40rem] lg:h-[45rem] md:sticky top-10 flex flex-col">
           <h2 className="text-2xl lg:text-3xl font-semibold text-blue-700 md:mb-4 text-center p-5 lg:p-2 sticky top-0 bg-white z-10">
